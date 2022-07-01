@@ -1,0 +1,175 @@
+.btn-1 a {
+  color: white;
+  background-color: #ae0001;
+  padding: 0.8rem;
+  border-radius: 5px;
+  display: block;
+  width: 150px;
+  text-align: center;
+  font-weight: 800;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25); }
+  .btn-1 a:hover {
+    background-color: #1d1d1d;
+    transition: 0.2s ease-in; }
+
+@media screen and (max-width: 767px) {
+  #topBar .container {
+    justify-content: center;
+    align-items: center; }
+  #navigationBar .container {
+    justify-content: space-around; }
+    #navigationBar .container .header-logo a {
+      font-size: 2.5rem; }
+    #navigationBar .container .main-nav .nav-menu {
+      position: fixed;
+      left: -600px;
+      top: 130px;
+      gap: 0;
+      flex-direction: column;
+      background-color: #ae0001;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      padding: 2.2rem;
+      height: 50%;
+      z-index: 10;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #navigationBar .container .main-nav .nav-menu .get-started-mobile {
+        display: block; }
+      #navigationBar .container .main-nav .nav-menu .nav-item {
+        margin: 20px 0;
+        font-size: 1.5rem; }
+        #navigationBar .container .main-nav .nav-menu .nav-item .current {
+          border-bottom: 2px white solid; }
+        #navigationBar .container .main-nav .nav-menu .nav-item a {
+          color: white; }
+    #navigationBar .container .nav-menu.active {
+      left: 0;
+      z-index: 500; }
+    #navigationBar .container .hamburger {
+      display: block; }
+    #navigationBar .container .hamburger.active .bar:nth-child(2) {
+      opacity: 0; }
+    #navigationBar .container .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg); }
+    #navigationBar .container .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg); }
+    #navigationBar .container .get-started {
+      display: none; }
+  #heroHome .container {
+    flex-direction: column; }
+    #heroHome .container .hero-info {
+      padding: 3rem;
+      margin: 0; }
+      #heroHome .container .hero-info div:first-child h1 {
+        font-size: 2rem; }
+    #heroHome .container .hero-img::before {
+      height: 400px;
+      width: 100%; }
+    #heroHome .container .hero-img img:first-child {
+      height: 400px; }
+    #heroHome .container .hero-img img:last-child {
+      width: 300px;
+      height: 300px;
+      background-size: contain;
+      right: 0;
+      left: 0;
+      margin: 0 auto; }
+  #homeBanner .container {
+    padding: 2rem; }
+  #exploreDiscover .container {
+    flex-direction: column; }
+    #exploreDiscover .container .explore-discover-info {
+      padding: 2rem 6rem; }
+      #exploreDiscover .container .explore-discover-info div:nth-child(2) p {
+        font-size: 1.5rem; }
+    #exploreDiscover .container .explore-discover-img::before {
+      height: 400px;
+      width: 100%; }
+    #exploreDiscover .container .explore-discover-img img:first-child {
+      height: 400px; }
+    #exploreDiscover .container .explore-discover-img img:last-child {
+      width: 300px;
+      height: 300px;
+      background-size: contain;
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
+  #modSoph .container {
+    align-items: center; }
+    #modSoph .container div {
+      width: 300px;
+      margin: 0; }
+    #modSoph .container div:first-child h1 {
+      font-size: 3rem; }
+  #latestListing .container .latest-listing-img img {
+    height: 400px; }
+  #latestListing .container .latest-listing-info {
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    #latestListing .container .latest-listing-info div {
+      max-width: 200px; }
+    #latestListing .container .latest-listing-info div:first-child h1 {
+      font-size: 1.5rem; }
+    #latestListing .container .latest-listing-info div:nth-child(2) {
+      flex-direction: column;
+      gap: 1rem; }
+      #latestListing .container .latest-listing-info div:nth-child(2) p {
+        font-size: 1rem; }
+    #latestListing .container .latest-listing-info div:nth-child(3) p {
+      font-size: 1.2rem; }
+  #servicesHero .container div:first-child img {
+    height: 400px; }
+  #servicesHero .container div:first-child::before {
+    height: 400px; }
+  #servicesHero .container div:last-child {
+    width: 300px;
+    gap: 1.5rem; }
+    #servicesHero .container div:last-child h1 {
+      font-size: 2.5rem; }
+    #servicesHero .container div:last-child p {
+      font-size: 1rem; }
+  #serviceCards .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    #serviceCards .container div {
+      width: 300px;
+      height: 270px;
+      justify-content: center; }
+  #relocationService .container {
+    justify-content: center;
+    height: 500px; }
+    #relocationService .container::before {
+      height: 500px; }
+    #relocationService .container div {
+      align-items: center;
+      margin: 0;
+      padding: 2rem;
+      gap: 1rem; }
+      #relocationService .container div h1 {
+        font-size: 2.5rem; }
+      #relocationService .container div p {
+        font-size: 1.5rem; }
+  #linkBoxService .container {
+    padding: 4rem; }
+  #footer .container {
+    flex-direction: column;
+    gap: 2rem; }
+    #footer .container div:first-child ul li {
+      margin: 1rem 0; }
+  #footer .footer-credits p {
+    font-size: 0.8rem; } }
+
+@media screen and (min-width: 1920px) {
+  #heroHome .container .hero-info {
+    position: relative;
+    margin-left: 16rem; }
+  #exploreDiscover .container .explore-discover-info {
+    margin-right: 15rem; }
+    #exploreDiscover .container .explore-discover-info div:first-child h1 {
+      font-size: 3.5rem; } }
