@@ -56,4 +56,61 @@ document.querySelector("#overlayListing3").addEventListener("click", () => {
   document.querySelector("html").style.overflow = 'visible';
 })
 
+// Listing 4 
+
+const overlay4 = document.querySelector("#overlayListing4");
+
+document.querySelector("#show-modal-btn-4").addEventListener("click", () => {
+  overlay4.style.display = "block";
+  document.querySelector("html").style.overflow = 'hidden';
+})
+
+document.querySelector("#close-modal-btn-4").addEventListener("click", () => {
+  overlay4.style.display = "none";
+  document.querySelector("html").style.overflow = 'visible';
+})
+
+document.querySelector("#overlayListing4").addEventListener("click", () => {
+  overlay4.style.display = "none";
+  document.querySelector("html").style.overflow = 'visible';
+})
+
+// Listing 5
+
+const overlay5 = document.querySelector("#overlayListing5");
+
+document.querySelector("#show-modal-btn-5").addEventListener("click", () => {
+  overlay5.style.display = "block";
+  document.querySelector("html").style.overflow = 'hidden';
+})
+
+document.querySelector("#close-modal-btn-5").addEventListener("click", () => {
+  overlay5.style.display = "none";
+  document.querySelector("html").style.overflow = 'visible';
+})
+
+document.querySelector("#overlayListing5").addEventListener("click", () => {
+  overlay5.style.display = "none";
+  document.querySelector("html").style.overflow = 'visible';
+})
+
+// Listing 6
+
+const overlay6 = document.querySelector("#overlayListing6");
+
+document.querySelector("#show-modal-btn-6").addEventListener("click", () => {
+  overlay6.style.display = "block";
+  document.querySelector("html").style.overflow = 'hidden';
+})
+
+document.querySelector("#close-modal-btn-6").addEventListener("click", () => {
+  overlay6.style.display = "none";
+  document.querySelector("html").style.overflow = 'visible';
+})
+
+document.querySelector("#overlayListing6").addEventListener("click", () => {
+  overlay6.style.display = "none";
+  document.querySelector("html").style.overflow = 'visible';
+})
+
 

@@ -424,8 +424,11 @@ li {
       font-size: 1.4rem; }
 
 #listings .container {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  justify-items: space-evenly;
+  gap: 5rem;
   margin-bottom: 2rem;
   padding: 2rem; }
   #listings .container .listing-1 div:first-child {
@@ -558,6 +561,138 @@ li {
       width: 120px;
       border: none; }
       #listings .container .listing-3 div:last-child button:hover:hover {
+        background-color: #1d1d1d;
+        transition: 0.2s ease-in; }
+  #listings .container .listing-4 div:first-child {
+    display: flex;
+    gap: 0; }
+    #listings .container .listing-4 div:first-child img {
+      width: 380px;
+      height: 200px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px; }
+  #listings .container .listing-4 div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: white;
+    width: 380px;
+    height: 200px;
+    padding: 1.5rem;
+    border-bottom: #ae0001 3px solid;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+    #listings .container .listing-4 div:last-child h1 {
+      color: #555555;
+      font-size: 1.5rem; }
+    #listings .container .listing-4 div:last-child h2 {
+      color: #555555;
+      font-size: 1rem;
+      font-weight: 200; }
+    #listings .container .listing-4 div:last-child h3 {
+      color: #555555;
+      font-size: 0.9rem;
+      font-weight: 200; }
+    #listings .container .listing-4 div:last-child button {
+      background-color: #ae0001;
+      color: white;
+      font-size: 0.8rem;
+      text-align: center;
+      box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      padding: 0.7rem;
+      width: 120px;
+      border: none; }
+      #listings .container .listing-4 div:last-child button:hover:hover {
+        background-color: #1d1d1d;
+        transition: 0.2s ease-in; }
+  #listings .container .listing-5 div:first-child {
+    display: flex;
+    gap: 0; }
+    #listings .container .listing-5 div:first-child img {
+      width: 380px;
+      height: 200px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px; }
+  #listings .container .listing-5 div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: white;
+    width: 380px;
+    height: 200px;
+    padding: 1.5rem;
+    border-bottom: #ae0001 3px solid;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+    #listings .container .listing-5 div:last-child h1 {
+      color: #555555;
+      font-size: 1.5rem; }
+    #listings .container .listing-5 div:last-child h2 {
+      color: #555555;
+      font-size: 1rem;
+      font-weight: 200; }
+    #listings .container .listing-5 div:last-child h3 {
+      color: #555555;
+      font-size: 0.9rem;
+      font-weight: 200; }
+    #listings .container .listing-5 div:last-child button {
+      background-color: #ae0001;
+      color: white;
+      font-size: 0.8rem;
+      text-align: center;
+      box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      padding: 0.7rem;
+      width: 120px;
+      border: none; }
+      #listings .container .listing-5 div:last-child button:hover:hover {
+        background-color: #1d1d1d;
+        transition: 0.2s ease-in; }
+  #listings .container .listing-6 div:first-child {
+    display: flex;
+    gap: 0; }
+    #listings .container .listing-6 div:first-child img {
+      width: 380px;
+      height: 200px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px; }
+  #listings .container .listing-6 div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: white;
+    width: 380px;
+    height: 200px;
+    padding: 1.5rem;
+    border-bottom: #ae0001 3px solid;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+    #listings .container .listing-6 div:last-child h1 {
+      color: #555555;
+      font-size: 1.5rem; }
+    #listings .container .listing-6 div:last-child h2 {
+      color: #555555;
+      font-size: 1rem;
+      font-weight: 200; }
+    #listings .container .listing-6 div:last-child h3 {
+      color: #555555;
+      font-size: 0.9rem;
+      font-weight: 200; }
+    #listings .container .listing-6 div:last-child button {
+      background-color: #ae0001;
+      color: white;
+      font-size: 0.8rem;
+      text-align: center;
+      box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      padding: 0.7rem;
+      width: 120px;
+      border: none; }
+      #listings .container .listing-6 div:last-child button:hover:hover {
         background-color: #1d1d1d;
         transition: 0.2s ease-in; }
 
@@ -825,6 +960,273 @@ li {
         flex-direction: column;
         gap: 0.8rem; }
         #overlayListing3 #modalListing3 .container div:nth-child(3) img {
+          height: 200px;
+          background-position: center; }
+
+#overlayListing4 {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(33, 32, 32, 0.829); }
+  #overlayListing4 #modalListing4 {
+    width: 1000px;
+    height: 80%;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    z-index: 10;
+    overflow-y: auto; }
+    #overlayListing4 #modalListing4 button {
+      background-color: transparent;
+      border: none;
+      color: black;
+      font-size: 1rem;
+      position: absolute; }
+    #overlayListing4 #modalListing4 .container {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      justify-content: center;
+      padding: 2rem; }
+      #overlayListing4 #modalListing4 .container div:first-child button {
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-size: 1rem; }
+        #overlayListing4 #modalListing4 .container div:first-child button:hover {
+          color: #ae0001; }
+      #overlayListing4 #modalListing4 .container div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; }
+        #overlayListing4 #modalListing4 .container div:nth-child(2) h1 {
+          color: #ae0001;
+          font-size: 3rem; }
+        #overlayListing4 #modalListing4 .container div:nth-child(2) h2 {
+          color: #555555; }
+        #overlayListing4 #modalListing4 .container div:nth-child(2) p {
+          color: #555555;
+          font-size: 1.2rem; }
+        #overlayListing4 #modalListing4 .container div:nth-child(2) h3 {
+          color: #ae0001;
+          font-size: 2rem;
+          font-family: "Alegreya Sans SC", sans-serif;
+          font-weight: 300; }
+        #overlayListing4 #modalListing4 .container div:nth-child(2) ul {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem; }
+          #overlayListing4 #modalListing4 .container div:nth-child(2) ul li {
+            color: #555555; }
+            #overlayListing4 #modalListing4 .container div:nth-child(2) ul li i {
+              color: #ae0001;
+              margin-right: 1rem;
+              width: 25px; }
+        #overlayListing4 #modalListing4 .container div:nth-child(2) a {
+          color: white;
+          background-color: #ae0001;
+          padding: 0.8rem;
+          border-radius: 5px;
+          display: block;
+          width: 150px;
+          text-align: center;
+          font-weight: 800;
+          box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25); }
+          #overlayListing4 #modalListing4 .container div:nth-child(2) a:hover {
+            background-color: #1d1d1d;
+            transition: 0.2s ease-in; }
+      #overlayListing4 #modalListing4 .container div:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem; }
+        #overlayListing4 #modalListing4 .container div:nth-child(3) img {
+          height: 200px;
+          background-position: center; }
+
+#overlayListing5 {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(33, 32, 32, 0.829); }
+  #overlayListing5 #modalListing5 {
+    width: 1000px;
+    height: 80%;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    z-index: 10;
+    overflow-y: auto; }
+    #overlayListing5 #modalListing5 button {
+      background-color: transparent;
+      border: none;
+      color: black;
+      font-size: 1rem;
+      position: absolute; }
+    #overlayListing5 #modalListing5 .container {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      justify-content: center;
+      padding: 2rem; }
+      #overlayListing5 #modalListing5 .container div:first-child button {
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-size: 1rem; }
+        #overlayListing5 #modalListing5 .container div:first-child button:hover {
+          color: #ae0001; }
+      #overlayListing5 #modalListing5 .container div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; }
+        #overlayListing5 #modalListing5 .container div:nth-child(2) h1 {
+          color: #ae0001;
+          font-size: 3rem; }
+        #overlayListing5 #modalListing5 .container div:nth-child(2) h2 {
+          color: #555555; }
+        #overlayListing5 #modalListing5 .container div:nth-child(2) p {
+          color: #555555;
+          font-size: 1.2rem; }
+        #overlayListing5 #modalListing5 .container div:nth-child(2) h3 {
+          color: #ae0001;
+          font-size: 2rem;
+          font-family: "Alegreya Sans SC", sans-serif;
+          font-weight: 300; }
+        #overlayListing5 #modalListing5 .container div:nth-child(2) ul {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem; }
+          #overlayListing5 #modalListing5 .container div:nth-child(2) ul li {
+            color: #555555; }
+            #overlayListing5 #modalListing5 .container div:nth-child(2) ul li i {
+              color: #ae0001;
+              margin-right: 1rem;
+              width: 25px; }
+        #overlayListing5 #modalListing5 .container div:nth-child(2) a {
+          color: white;
+          background-color: #ae0001;
+          padding: 0.8rem;
+          border-radius: 5px;
+          display: block;
+          width: 150px;
+          text-align: center;
+          font-weight: 800;
+          box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25); }
+          #overlayListing5 #modalListing5 .container div:nth-child(2) a:hover {
+            background-color: #1d1d1d;
+            transition: 0.2s ease-in; }
+      #overlayListing5 #modalListing5 .container div:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem; }
+        #overlayListing5 #modalListing5 .container div:nth-child(3) img {
+          height: 200px;
+          background-position: center; }
+
+#overlayListing6 {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(33, 32, 32, 0.829); }
+  #overlayListing6 #modalListing6 {
+    width: 1000px;
+    height: 80%;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    z-index: 10;
+    overflow-y: auto; }
+    #overlayListing6 #modalListing6 button {
+      background-color: transparent;
+      border: none;
+      color: black;
+      font-size: 1rem;
+      position: absolute; }
+    #overlayListing6 #modalListing6 .container {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      justify-content: center;
+      padding: 2rem; }
+      #overlayListing6 #modalListing6 .container div:first-child button {
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-size: 1rem; }
+        #overlayListing6 #modalListing6 .container div:first-child button:hover {
+          color: #ae0001; }
+      #overlayListing6 #modalListing6 .container div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem; }
+        #overlayListing6 #modalListing6 .container div:nth-child(2) h1 {
+          color: #ae0001;
+          font-size: 3rem; }
+        #overlayListing6 #modalListing6 .container div:nth-child(2) h2 {
+          color: #555555; }
+        #overlayListing6 #modalListing6 .container div:nth-child(2) p {
+          color: #555555;
+          font-size: 1.2rem; }
+        #overlayListing6 #modalListing6 .container div:nth-child(2) h3 {
+          color: #ae0001;
+          font-size: 2rem;
+          font-family: "Alegreya Sans SC", sans-serif;
+          font-weight: 300; }
+        #overlayListing6 #modalListing6 .container div:nth-child(2) ul {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem; }
+          #overlayListing6 #modalListing6 .container div:nth-child(2) ul li {
+            color: #555555; }
+            #overlayListing6 #modalListing6 .container div:nth-child(2) ul li i {
+              color: #ae0001;
+              margin-right: 1rem;
+              width: 25px; }
+        #overlayListing6 #modalListing6 .container div:nth-child(2) a {
+          color: white;
+          background-color: #ae0001;
+          padding: 0.8rem;
+          border-radius: 5px;
+          display: block;
+          width: 150px;
+          text-align: center;
+          font-weight: 800;
+          box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25); }
+          #overlayListing6 #modalListing6 .container div:nth-child(2) a:hover {
+            background-color: #1d1d1d;
+            transition: 0.2s ease-in; }
+      #overlayListing6 #modalListing6 .container div:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem; }
+        #overlayListing6 #modalListing6 .container div:nth-child(3) img {
           height: 200px;
           background-position: center; }
 

@@ -40,7 +40,7 @@
         display: block; }
       #navigationBar .container .main-nav .nav-menu .nav-item {
         margin: 20px 0;
-        font-size: 1.5rem; }
+        font-size: 1.2rem; }
         #navigationBar .container .main-nav .nav-menu .nav-item .current {
           border-bottom: 2px white solid; }
         #navigationBar .container .main-nav .nav-menu .nav-item a {
@@ -157,6 +157,85 @@
         font-size: 1.5rem; }
   #linkBoxService .container {
     padding: 4rem; }
+  #listingsHero .container div:first-child img {
+    height: 400px; }
+  #listingsHero .container div:first-child::before {
+    height: 400px; }
+  #listingsHero .container div:last-child {
+    width: 300px;
+    gap: 1.5rem; }
+    #listingsHero .container div:last-child h1 {
+      font-size: 2.5rem; }
+    #listingsHero .container div:last-child p {
+      font-size: 1rem; }
+  #listings .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem; }
+    #listings .container .listing-1 div:first-child img {
+      width: 300px; }
+    #listings .container .listing-1 div:last-child {
+      width: 300px; }
+      #listings .container .listing-1 div:last-child h1 {
+        font-size: 18px; }
+      #listings .container .listing-1 div:last-child h2,
+      #listings .container .listing-1 div:last-child h3 {
+        font-size: 14px; }
+    #listings .container .listing-2 div:first-child img {
+      width: 300px; }
+    #listings .container .listing-2 div:last-child {
+      width: 300px; }
+      #listings .container .listing-2 div:last-child h1 {
+        font-size: 18px; }
+      #listings .container .listing-2 div:last-child h2,
+      #listings .container .listing-2 div:last-child h3 {
+        font-size: 14px; }
+    #listings .container .listing-3 div:first-child img {
+      width: 300px; }
+    #listings .container .listing-3 div:last-child {
+      width: 300px; }
+      #listings .container .listing-3 div:last-child h1 {
+        font-size: 18px; }
+      #listings .container .listing-3 div:last-child h2,
+      #listings .container .listing-3 div:last-child h3 {
+        font-size: 14px; }
+    #listings .container .listing-4 div:first-child img {
+      width: 300px; }
+    #listings .container .listing-4 div:last-child {
+      width: 300px; }
+      #listings .container .listing-4 div:last-child h1 {
+        font-size: 18px; }
+      #listings .container .listing-4 div:last-child h2,
+      #listings .container .listing-4 div:last-child h3 {
+        font-size: 14px; }
+    #listings .container .listing-5 div:first-child img {
+      width: 300px; }
+    #listings .container .listing-5 div:last-child {
+      width: 300px; }
+      #listings .container .listing-5 div:last-child h1 {
+        font-size: 18px; }
+      #listings .container .listing-5 div:last-child h2,
+      #listings .container .listing-5 div:last-child h3 {
+        font-size: 14px; }
+    #listings .container .listing-6 div:first-child img {
+      width: 300px; }
+    #listings .container .listing-6 div:last-child {
+      width: 300px; }
+      #listings .container .listing-6 div:last-child h1 {
+        font-size: 18px; }
+      #listings .container .listing-6 div:last-child h2,
+      #listings .container .listing-6 div:last-child h3 {
+        font-size: 14px; }
+  #overlayListing1 #modalListing1 {
+    width: 100%;
+    height: 100%; }
+    #overlayListing1 #modalListing1 .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+      #overlayListing1 #modalListing1 .container iframe {
+        width: 328px; }
   #footer .container {
     flex-direction: column;
     gap: 2rem; }
