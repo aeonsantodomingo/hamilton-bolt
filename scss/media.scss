@@ -40,6 +40,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          text-align: center;
 
           .get-started-mobile {
             display: block;
@@ -467,6 +468,165 @@
 
         iframe {
           width: 328px;
+        }
+      }
+    }
+  }
+
+  // About Hero Mobile
+
+  #aboutHero {
+    .container {
+      div:first-child {
+        img {
+          height: 400px;
+        }
+
+        &::before {
+          height: 400px;
+        }
+      }
+      div:last-child {
+        width: 300px;
+        gap: 1.5rem;
+
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  #aboutInfo {
+    .container {
+      width: 350px;
+
+      p {
+        text-align: left;
+      }
+    }
+  }
+
+  #teamCards {
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 3rem;
+
+      .card-1 {
+        div:first-child {
+          img {
+            width: 300px;
+            height: 250px;
+          }
+        }
+
+        div:last-child {
+          width: 300px;
+        }
+      }
+      .card-2 {
+        div:first-child {
+          img {
+            width: 300px;
+            height: 250px;
+          }
+        }
+
+        div:last-child {
+          width: 300px;
+        }
+      }
+      .card-3 {
+        div:first-child {
+          img {
+            width: 300px;
+            height: 250px;
+          }
+        }
+
+        div:last-child {
+          width: 300px;
+        }
+      }
+      .card-4 {
+        div:first-child {
+          img {
+            width: 300px;
+            height: 250px;
+          }
+        }
+
+        div:last-child {
+          width: 300px;
+        }
+      }
+    }
+  }
+
+  // Contact Mobile
+
+  #contactHero {
+    .container {
+      div:first-child {
+        img {
+          height: 400px;
+        }
+
+        &::before {
+          height: 400px;
+        }
+      }
+      div:last-child {
+        width: 300px;
+        gap: 1.5rem;
+
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  #contactForm {
+    .container {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem;
+
+      .contact-info {
+        width: 300px;
+
+        iframe {
+          width: 220px;
+          height: 300px;
+        }
+      }
+
+      form {
+        gap: 0;
+        input {
+          width: 300px;
+          margin: 1rem 0;
+        }
+
+        textarea {
+          width: 300px;
+        }
+
+        a {
+          margin-top: 1rem;
         }
       }
     }

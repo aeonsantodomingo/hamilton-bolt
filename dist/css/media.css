@@ -35,7 +35,8 @@
       z-index: 10;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      text-align: center; }
       #navigationBar .container .main-nav .nav-menu .get-started-mobile {
         display: block; }
       #navigationBar .container .main-nav .nav-menu .nav-item {
@@ -236,6 +237,77 @@
       flex-direction: column; }
       #overlayListing1 #modalListing1 .container iframe {
         width: 328px; }
+  #aboutHero .container div:first-child img {
+    height: 400px; }
+  #aboutHero .container div:first-child::before {
+    height: 400px; }
+  #aboutHero .container div:last-child {
+    width: 300px;
+    gap: 1.5rem; }
+    #aboutHero .container div:last-child h1 {
+      font-size: 2.5rem; }
+    #aboutHero .container div:last-child p {
+      font-size: 1rem; }
+  #aboutInfo .container {
+    width: 350px; }
+    #aboutInfo .container p {
+      text-align: left; }
+  #teamCards .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem; }
+    #teamCards .container .card-1 div:first-child img {
+      width: 300px;
+      height: 250px; }
+    #teamCards .container .card-1 div:last-child {
+      width: 300px; }
+    #teamCards .container .card-2 div:first-child img {
+      width: 300px;
+      height: 250px; }
+    #teamCards .container .card-2 div:last-child {
+      width: 300px; }
+    #teamCards .container .card-3 div:first-child img {
+      width: 300px;
+      height: 250px; }
+    #teamCards .container .card-3 div:last-child {
+      width: 300px; }
+    #teamCards .container .card-4 div:first-child img {
+      width: 300px;
+      height: 250px; }
+    #teamCards .container .card-4 div:last-child {
+      width: 300px; }
+  #contactHero .container div:first-child img {
+    height: 400px; }
+  #contactHero .container div:first-child::before {
+    height: 400px; }
+  #contactHero .container div:last-child {
+    width: 300px;
+    gap: 1.5rem; }
+    #contactHero .container div:last-child h1 {
+      font-size: 2.5rem; }
+    #contactHero .container div:last-child p {
+      font-size: 1rem; }
+  #contactForm .container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem; }
+    #contactForm .container .contact-info {
+      width: 300px; }
+      #contactForm .container .contact-info iframe {
+        width: 220px;
+        height: 300px; }
+    #contactForm .container form {
+      gap: 0; }
+      #contactForm .container form input {
+        width: 300px;
+        margin: 1rem 0; }
+      #contactForm .container form textarea {
+        width: 300px; }
+      #contactForm .container form a {
+        margin-top: 1rem; }
   #footer .container {
     flex-direction: column;
     gap: 2rem; }
